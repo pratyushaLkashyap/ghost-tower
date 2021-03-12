@@ -14,7 +14,7 @@ function preload(){
 }
 
 function setup(){
-  createCanvas(600,600);
+  createCanvas(800,800);
   spookySound.loop();
   tower = createSprite(300,300);
   tower.addImage("tower",towerImg);
